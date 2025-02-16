@@ -1,0 +1,88 @@
+/* Typography */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 80px; /* Added left and right margin */
+}
+
+h1, h2 {
+    color: #2c3e50;
+    margin: 20px 0 0 20px; /* Added margin */
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Links */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Collapsible */
+.collapsible {
+    background-color: #f1f1f1;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin: 5px 0;
+    position: relative;
+}
+
+.collapsible::after {
+    content: '+';
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+}
+
+.active, .collapsible:hover {
+    background-color: #ddd;
+}
+
+.active::after {
+    content: '-';
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+.footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e7e7e7;
+    padding: 1em;
+    text-align: left;
+    font-size: 0.9em;
+    color: #777;
+    margin-left: 20px; /* Added left margin */
+}
+
+.footer a {
+    color: #1e90ff;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
