@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    margin: 0 80px; /* Added left and right margin */
+    margin: 0 200px; /* Added left and right margin */
 }
 
 h1, h2 {
@@ -85,4 +85,9 @@ a:hover {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+.highlight {
+    font-weight: bold;
+    color: tomato;
 }
